@@ -1,0 +1,12 @@
+@use "./partials/vars" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
