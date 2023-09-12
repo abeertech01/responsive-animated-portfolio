@@ -32,7 +32,7 @@ function Navigation() {
         })}
       </ul>
       <Button
-        text="Contact Us"
+        text="Contact"
         bg="#a855f7"
         modifier="white"
         borderRadius="60px"
