@@ -1,6 +1,7 @@
 @use "./partials/vars" as *;
 @use "./partials/navigation";
 @use "./partials/button";
+@use "./partials/portfolio";
 
 * {
   margin: 0;
@@ -13,4 +14,9 @@
 body {
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+// utilities
+.u-pad-2 {
+  padding: $pad--sm-2;
 }

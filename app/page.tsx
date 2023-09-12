@@ -1,3 +1,9 @@
+import Portfolios from "./components/Portfolios"
+
 export default function Home() {
-  return <main></main>
+  return (
+    <main className="u-pad-2">
+      <Portfolios />
+    </main>
+  )
 }
