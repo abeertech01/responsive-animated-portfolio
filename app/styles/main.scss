@@ -3,6 +3,8 @@
 @use "./partials/button";
 @use "./partials/portfolio";
 @use "./partials/banner";
+@use "./partials/about";
+@use "./partials/strategy";
 
 * {
   margin: 0;
@@ -15,6 +17,7 @@
 body {
   font-size: 1.25rem;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 // utilities
