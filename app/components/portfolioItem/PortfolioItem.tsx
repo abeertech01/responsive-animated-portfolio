@@ -6,7 +6,7 @@ import React from "react"
 
 import { motion } from "framer-motion"
 
-function PortfolioItem({ name, image, categories }: Portfolio) {
+function PortfolioItem({ name, image, categories, onClick }: Portfolio) {
   const [isHover, setIsHover] = React.useState(false)
 
   const hoverVariants = {
@@ -58,6 +58,7 @@ function PortfolioItem({ name, image, categories }: Portfolio) {
       className="portfolio"
       onHoverStart={handleHoverStart}
       onHoverEnd={handleHoverEnd}
+      onClick={onClick}
     >
       <Image src={image} alt={name} />
       <div className="hover">

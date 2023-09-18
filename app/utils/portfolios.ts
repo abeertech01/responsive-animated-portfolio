@@ -21,6 +21,7 @@ export interface Portfolio {
   features?: string[]
   problem?: string
   solution?: string
+  onClick?: () => void
   links?: {
     website?: string
     github?: string
